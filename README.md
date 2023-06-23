@@ -92,37 +92,23 @@ Dependencies to run the project:
 
 Steps to install and run the project locally:
 
-Clone the project:
-
-```bash
-git clone git@github.com:brayandiazc/gitmessage-template.git
-```
-
-Change the directory to the project:
-
-```bash
-cd gitmessage-template
-```
-
-Copy the template files to the project:
-
-```bash
-cp .gitmessage-template/* .
-```
-
 Change to root directory:
 
 ```bash
 cd
 ```
 
+Clone the project:
+
+```bash
+git clone git@github.com:elaraby-tv-app/template-gitmessage.git
+```
+
 Config the git message template:
 
 ```bash
-git config --global commit.template ~/.gitmessage
+git config --global commit.template ~/gitmessage-template/.gitmessage
 ```
-
-**Instructions for copy file:**
 
 ## Built with 🛠️
 
